@@ -2413,6 +2413,9 @@ using the following signature:
 void my_c_function(conf_object_t *obj, int x);
 ```
 
+The `conf_object_t *obj` parameter corresponds to the device instance, and is
+omitted when the referenced method is [independent](#independent-methods).
+
 ## Resolution of overrides
 
 This section describes in detail the rules for how DML handles when there are
